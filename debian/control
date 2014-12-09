@@ -1,0 +1,40 @@
+Source: kaccounts-integration
+Section: kde
+Priority: extra
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Build-Depends: cmake,
+               debhelper (>= 9),
+               extra-cmake-modules,
+               pkg-kde-tools (>= 0.12),
+               libaccounts-qt5-dev,
+               libsignon-qt5-dev,
+               qtbase5-dev,
+               libkf5kcmutils-dev,
+               kio-dev,
+               libkf5i18n-dev,
+               libkf5widgetsaddons-dev,
+               libkf5coreaddons-dev,
+               libkf5iconthemes-dev,
+               libkf5config-dev,
+               libkf5wallet-dev,
+               libkf5dbusaddons-dev
+Standards-Version: 3.9.5
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-extras/kaccounts-integration.git/
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-extras/kaccounts-integration.git
+
+Package: kaccounts-integration
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}, singond
+Recommends: kaccounts-providers
+Description: system to administer web accounts
+ For the sites and services across the Plasma desktop.
+
+Package: kaccounts-integration-dbg
+Architecture: any
+Section: debug
+Priority: extra
+Depends: kaccounts-integration (= ${binary:Version}), ${misc:Depends}
+Description: system to administer web accounts - debug symbols
+ For the sites and services across the Plasma desktop.
+ .
+ This package contains debug symbols.
