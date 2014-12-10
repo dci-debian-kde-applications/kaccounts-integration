@@ -46,7 +46,7 @@ Description: library to administer web accounts - development files
 
 Package: kaccounts-integration
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}, singond, signon-ui-x11, signon-kwallet-extension, signon-plugin-oauth2
+Depends: ${misc:Depends}, ${shlibs:Depends}, signond, signon-ui-x11, signon-kwallet-extension, signon-plugin-oauth2
 Recommends: kaccounts-providers
 Description: system to administer web accounts
  For the sites and services across the Plasma desktop.
