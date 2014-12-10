@@ -23,6 +23,27 @@ XS-Testsuite: autopkgtest
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-extras/kaccounts-integration.git/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-extras/kaccounts-integration.git
 
+Package: libkaccounts1
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Recommends: kaccounts-providers
+Breaks: kaccounts-integration (<= 0.0+git20141209.1543+15.04)
+Replaces: kaccounts-integration (<= 0.0+git20141209.1543+15.04)
+Description: library to administer web accounts
+ For the sites and services across the Plasma desktop.
+
+Package: libkaccounts-dev
+Section: libdevel
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: kaccounts-integration (<= 0.0+git20141209.1543+15.04)
+Replaces: kaccounts-integration (<= 0.0+git20141209.1543+15.04)
+Description: library to administer web accounts - development files
+ For the sites and services across the Plasma desktop.
+ .
+ This package contains development files.
+
 Package: kaccounts-integration
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}, singond, signon-ui-x11, signon-kwallet-extension, signon-plugin-oauth2
