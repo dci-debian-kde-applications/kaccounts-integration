@@ -36,7 +36,9 @@ Description: library to administer web accounts
 Package: libkaccounts-dev
 Section: libdevel
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: libkaccounts1 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Breaks: kaccounts-integration (<= 0.0+git20141209.1543+15.04)
 Replaces: kaccounts-integration (<= 0.0+git20141209.1543+15.04)
 Description: library to administer web accounts - development files
