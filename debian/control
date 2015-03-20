@@ -37,6 +37,7 @@ Package: libkaccounts-dev
 Section: libdevel
 Architecture: any
 Depends: libkaccounts1 (= ${binary:Version}),
+         libsignon-qt5-dev,
          ${misc:Depends},
          ${shlibs:Depends}
 Breaks: kaccounts-integration (<= 0.0+git20141209.1543+15.04)
