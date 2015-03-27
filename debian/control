@@ -51,6 +51,7 @@ Package: kaccounts-integration
 Architecture: any
 Depends: signon-kwallet-extension,
          signon-plugin-oauth2,
+         signon-plugin-password,
          signon-ui-x11,
          signond,
          ${misc:Depends},
