@@ -5,19 +5,19 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Build-Depends: cmake,
                debhelper (>= 9),
                extra-cmake-modules,
-               pkg-kde-tools (>= 0.12),
-               libaccounts-qt5-dev,
-               libsignon-qt5-dev,
-               qtbase5-dev,
-               libkf5kcmutils-dev,
                kio-dev,
-               libkf5i18n-dev,
-               libkf5widgetsaddons-dev,
-               libkf5coreaddons-dev,
-               libkf5iconthemes-dev,
+               libaccounts-qt5-dev,
                libkf5config-dev,
+               libkf5coreaddons-dev,
+               libkf5dbusaddons-dev,
+               libkf5i18n-dev,
+               libkf5iconthemes-dev,
+               libkf5kcmutils-dev,
                libkf5wallet-dev,
-               libkf5dbusaddons-dev
+               libkf5widgetsaddons-dev,
+               libsignon-qt5-dev,
+               pkg-kde-tools (>= 0.12),
+               qtbase5-dev
 Standards-Version: 3.9.5
 XS-Testsuite: autopkgtest
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-extras/kaccounts-integration.git/
@@ -36,7 +36,9 @@ Description: library to administer web accounts
 Package: libkaccounts-dev
 Section: libdevel
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: libkaccounts1 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Breaks: kaccounts-integration (<= 0.0+git20141209.1543+15.04)
 Replaces: kaccounts-integration (<= 0.0+git20141209.1543+15.04)
 Description: library to administer web accounts - development files
@@ -46,7 +48,12 @@ Description: library to administer web accounts - development files
 
 Package: kaccounts-integration
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}, signond, signon-ui-x11, signon-kwallet-extension, signon-plugin-oauth2
+Depends: signon-kwallet-extension,
+         signon-plugin-oauth2,
+         signon-ui-x11,
+         signond,
+         ${misc:Depends},
+         ${shlibs:Depends}
 Recommends: kaccounts-providers
 Description: system to administer web accounts
  For the sites and services across the Plasma desktop.
