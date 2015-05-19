@@ -17,7 +17,7 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5widgetsaddons-dev (>= 5.0.0~),
                libsignon-qt5-dev (>= 8.55~),
                pkg-kde-tools (>> 0.15.15),
-               qtbase5-dev (>= 5.2.0~)
+               qtbase5-dev (>= 5.4)
 Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/kde/kdenetwork/kaccounts-integration
