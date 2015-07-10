@@ -51,6 +51,15 @@ Description: library to administer web accounts - development files
  .
  This package contains development files.
 
+Package: qml-module-org-kde-kaccounts
+Architecture: any
+Multi-arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: system to administer web accounts - QML module
+ For the sites and services across the Plasma desktop.
+ .
+ This package contains the QML module.
+
 Package: kaccounts-integration
 Architecture: any
 Depends: signon-kwallet-extension,
