@@ -1,4 +1,4 @@
-kaccounts-integration (15.04.2-1~) UNRELEASED; urgency=medium
+kaccounts-integration (15.04.3-1~) UNRELEASED; urgency=medium
 
   [ Harald Sitter ]
   * Initial release.
@@ -8,4 +8,7 @@ kaccounts-integration (15.04.2-1~) UNRELEASED; urgency=medium
   * New upstream release (15.04.1).
   * New upstream release (15.04.2).
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 05 Jun 2015 11:33:13 +0200
+  [ Diane Trout ]
+  * New upstream release (15.04.3).
+
+ -- Diane Trout <diane@debian.org>  Mon, 06 Jul 2015 21:36:13 -0700
