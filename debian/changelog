@@ -10,5 +10,13 @@ kaccounts-integration (15.04.3-1~) UNRELEASED; urgency=medium
 
   [ Diane Trout ]
   * New upstream release (15.04.3).
+  * Add support for running unit tests.
+    - add xauth and xvfb to Build-Depends.
+    - override_dh_auto_test to manually run ctest
+      because the test kaccounts-testnetattachjobs
+      configures kwallet which opens up a GUI for
+      configuring, and unlocking the wallet.
+      The "cd obj-*" to change to the build directory
+      should be fixed.
 
  -- Diane Trout <diane@debian.org>  Mon, 06 Jul 2015 21:36:13 -0700
