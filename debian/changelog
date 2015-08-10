@@ -21,5 +21,6 @@ kaccounts-integration (15.07.90-1) UNRELEASED; urgency=medium
   * Update libkaccounts1.install for new library filename
   * Add KDE's unstable release url.
   * New upstream release (15.07.90).
+  * Add qtdeclarative5-dev to build-dependes
 
  -- Diane Trout <diane@debian.org>  Sun, 09 Aug 2015 20:27:02 -0700
