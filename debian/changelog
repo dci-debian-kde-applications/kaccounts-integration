@@ -19,5 +19,6 @@ kaccounts-integration (15.04.3-1~) UNRELEASED; urgency=medium
       The "cd obj-*" to change to the build directory
       should be fixed.
   * Update libkaccounts1.install for new library filename
+  * Add KDE's unstable release url.
 
  -- Diane Trout <diane@debian.org>  Mon, 06 Jul 2015 21:36:13 -0700
