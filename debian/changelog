@@ -1,6 +1,11 @@
 kaccounts-integration (4:15.04.3-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Jonathan Riddell ]
   * New upstream release
+
+  [ José Manuel Santamaría Lema ]
+  * Update symbols: mark as optional symbols gone after building with
+    GCC 5
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 02 Jul 2015 17:00:40 +0000
 
