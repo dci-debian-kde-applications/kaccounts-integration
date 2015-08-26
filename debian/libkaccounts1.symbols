@@ -18,9 +18,9 @@ libkaccounts.so.1 libkaccounts1 #MINVER#
  _ZN17GetCredentialsJobC1ERKjRK7QStringS4_P7QObject@Base 0.0
  _ZN17GetCredentialsJobC2ERKjP7QObject@Base 0.0
  _ZN17GetCredentialsJobC2ERKjRK7QStringS4_P7QObject@Base 0.0
- _ZN17GetCredentialsJobD0Ev@Base 0.0
- _ZN17GetCredentialsJobD1Ev@Base 0.0
- _ZN17GetCredentialsJobD2Ev@Base 0.0
+ (optional=gccinternal)_ZN17GetCredentialsJobD0Ev@Base 0.0
+ (optional=gccinternal)_ZN17GetCredentialsJobD1Ev@Base 0.0
+ (optional=gccinternal)_ZN17GetCredentialsJobD2Ev@Base 0.0
  _ZN17KAccountsUiPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.0
  _ZN17KAccountsUiPlugin11qt_metacastEPKc@Base 0.0
  _ZN17KAccountsUiPlugin16staticMetaObjectE@Base 0.0
