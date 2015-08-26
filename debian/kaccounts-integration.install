@@ -1,3 +1,4 @@
+usr/lib/*/qt5/plugins/kaccounts/daemonplugins/kaccounts_akonadi_plugin.so
 usr/lib/*/qt5/plugins/kcm_kaccounts.so
 usr/lib/*/qt5/plugins/kded_accounts.so
 usr/share/kservices5/
