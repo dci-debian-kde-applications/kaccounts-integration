@@ -1,4 +1,4 @@
-kaccounts-integration (15.07.90-1) UNRELEASED; urgency=medium
+kaccounts-integration (15.08.0-1) UNRELEASED; urgency=medium
 
   [ Harald Sitter ]
   * Initial release.
@@ -20,7 +20,7 @@ kaccounts-integration (15.07.90-1) UNRELEASED; urgency=medium
       should be fixed.
   * Update libkaccounts1.install for new library filename
   * Add KDE's unstable release url.
-  * New upstream release (15.07.90).
+  * New upstream release (15.08.0).
   * Add qtdeclarative5-dev to build-dependes
   * Add myself to uploaders
   * Add qml-module-org-kde-kaccounts package.
