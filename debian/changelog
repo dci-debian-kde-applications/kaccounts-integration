@@ -23,5 +23,6 @@ kaccounts-integration (15.07.90-1) UNRELEASED; urgency=medium
   * New upstream release (15.07.90).
   * Add qtdeclarative5-dev to build-dependes
   * Add myself to uploaders
+  * Add qml-module-org-kde-kaccounts package.
 
  -- Diane Trout <diane@debian.org>  Sun, 09 Aug 2015 20:27:02 -0700

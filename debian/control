@@ -78,3 +78,11 @@ Description: system to administer web accounts - debug symbols
  For the sites and services across the Plasma desktop.
  .
  This package contains debug symbols.
+
+Package: qml-module-org-kde-kaccounts
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: KAccounts QtDeclarative QML Support
+ Contains a plugin for QtDeclarative that provides
+ support for using KAccounts components written
+ in QML.
