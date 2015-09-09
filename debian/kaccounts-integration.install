@@ -2,4 +2,5 @@ usr/lib/*/qt5/plugins/kaccounts/daemonplugins/kaccounts_akonadi_plugin.so
 usr/lib/*/qt5/plugins/kaccounts/ui/owncloud_plugin_kaccounts.so
 usr/lib/*/qt5/plugins/kcm_kaccounts.so
 usr/lib/*/qt5/plugins/kded_accounts.so
+usr/share/kpackage/genericqml/org.kde.kaccounts.owncloud/
 usr/share/kservices5/
