@@ -1,3 +1,11 @@
+kaccounts-integration (4:15.08.0-0ubuntu2) wily; urgency=medium
+
+  * Remove akonadi build-dep on advise of upstream author
+    <mck182> the
+    code is so outdated that I don't even believe it works these days
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 10 Sep 2015 14:49:01 +0100
+
 kaccounts-integration (4:15.08.0-0ubuntu1) wily; urgency=medium
 
   * new upstream release
