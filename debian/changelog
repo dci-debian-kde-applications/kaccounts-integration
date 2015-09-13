@@ -28,5 +28,6 @@ kaccounts-integration (15.08.0-1) UNRELEASED; urgency=medium
     dependencies to libkaccounts-dev.
   * Add signon-plugin-password and signon-ui-x11 dependencies to
     kaccounts-integration. (To match kubuntu)
+  * Add --list-missing to dh_install to make sure everything installed.
 
  -- Diane Trout <diane@debian.org>  Sun, 09 Aug 2015 20:27:02 -0700
