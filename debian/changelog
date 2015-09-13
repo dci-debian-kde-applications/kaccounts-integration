@@ -24,5 +24,7 @@ kaccounts-integration (15.08.0-1) UNRELEASED; urgency=medium
   * Add qtdeclarative5-dev to build-dependes
   * Add myself to uploaders
   * Add qml-module-org-kde-kaccounts package.
+  * Add libaccounts-qt5-dev, libkf5coreaddons-dev, libsignonq-qt5-dev
+    dependencies to libkaccounts-dev.
 
  -- Diane Trout <diane@debian.org>  Sun, 09 Aug 2015 20:27:02 -0700
