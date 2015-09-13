@@ -72,6 +72,8 @@ Architecture: any
 Depends: libkaccounts1 (= ${binary:Version}),
          signon-kwallet-extension,
          signon-plugin-oauth2,
+         signon-plugin-password,
+         signon-ui-x11,
          signond,
          ${misc:Depends},
          ${shlibs:Depends}

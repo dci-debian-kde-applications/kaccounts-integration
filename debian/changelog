@@ -26,5 +26,7 @@ kaccounts-integration (15.08.0-1) UNRELEASED; urgency=medium
   * Add qml-module-org-kde-kaccounts package.
   * Add libaccounts-qt5-dev, libkf5coreaddons-dev, libsignonq-qt5-dev
     dependencies to libkaccounts-dev.
+  * Add signon-plugin-password and signon-ui-x11 dependencies to
+    kaccounts-integration. (To match kubuntu)
 
  -- Diane Trout <diane@debian.org>  Sun, 09 Aug 2015 20:27:02 -0700
