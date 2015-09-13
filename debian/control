@@ -55,6 +55,15 @@ Description: System to administer web accounts - development files
  .
  This package contains development files.
 
+Package: qml-module-org-kde-kaccounts
+Architecture: any
+Multi-arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: KAccounts QtDeclarative QML Support
+ Contains a plugin for QtDeclarative that provides
+ support for using KAccounts components written
+ in QML.
+
 Package: kaccounts-integration
 Architecture: any
 Depends: libkaccounts1 (= ${binary:Version}),
@@ -78,11 +87,3 @@ Description: system to administer web accounts - debug symbols
  For the sites and services across the Plasma desktop.
  .
  This package contains debug symbols.
-
-Package: qml-module-org-kde-kaccounts
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: KAccounts QtDeclarative QML Support
- Contains a plugin for QtDeclarative that provides
- support for using KAccounts components written
- in QML.
