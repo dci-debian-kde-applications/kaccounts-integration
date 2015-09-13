@@ -79,9 +79,9 @@ Description: System to administer web accounts
  Jabber and others.
 
 Package: kaccounts-integration-dbg
+Architecture: any
 Section: debug
 Priority: extra
-Architecture: any
 Depends: kaccounts-integration (= ${binary:Version}), ${misc:Depends}
 Description: system to administer web accounts - debug symbols
  For the sites and services across the Plasma desktop.
