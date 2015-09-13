@@ -37,7 +37,7 @@ Breaks: kaccounts-integration (<= 0.0+git20141209.1543+15.04)
 Replaces: kaccounts-integration (<= 0.0+git20141209.1543+15.04)
 Description: System to administer web accounts - shared library
  Small system to administer web accounts for the sites and services across the
- KDE desktop, including: Google, Facebook, Owncloud, IMAP, Jabber and others.
+ Plasma desktop, including: Google, Facebook, Owncloud, IMAP, Jabber and others.
  .
  This package contains the shared library.
 
@@ -51,7 +51,7 @@ Breaks: kaccounts-integration (<= 0.0+git20141209.1543+15.04)
 Replaces: kaccounts-integration (<= 0.0+git20141209.1543+15.04)
 Description: System to administer web accounts - development files
  Small system to administer web accounts for the sites and services across the
- KDE desktop, including: Google, Facebook, Owncloud, IMAP, Jabber and others.
+ Plasma desktop, including: Google, Facebook, Owncloud, IMAP, Jabber and others.
  .
  This package contains development files.
 
@@ -66,7 +66,7 @@ Depends: libkaccounts1 (= ${binary:Version}),
 Recommends: kaccounts-providers
 Description: System to administer web accounts
  Small system to administer web accounts for the sites and services
- across the KDE desktop, including: Google, Facebook, Owncloud, IMAP,
+ across the Plasma desktop, including: Google, Facebook, Owncloud, IMAP,
  Jabber and others.
 
 Package: kaccounts-integration-dbg
