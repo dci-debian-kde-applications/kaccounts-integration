@@ -1,3 +1,9 @@
+kaccounts-integration (4:15.08.1-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release (15.18.1)
+
+ -- Clive Johnston <clivejo@aol.com>  Wed, 16 Sep 2015 22:51:18 +0100
+
 kaccounts-integration (4:15.08.0-0ubuntu2) wily; urgency=medium
 
   * Remove akonadi build-dep on advise of upstream author
