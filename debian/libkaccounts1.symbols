@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.08.0 amd64
+# SymbolsHelper-Confirmed: 4:15.08.1+git20150917.2210+15.10 amd64 i386
 libkaccounts.so.1 libkaccounts1 #MINVER#
  _ZN16KAccountsDPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.0
  _ZN16KAccountsDPlugin11qt_metacastEPKc@Base 0.0
@@ -20,6 +20,7 @@ libkaccounts.so.1 libkaccounts1 #MINVER#
  _ZN17GetCredentialsJobC2ERKjRK7QStringS4_P7QObject@Base 0.0
  _ZN17KAccountsUiPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.0
  _ZN17KAccountsUiPlugin11qt_metacastEPKc@Base 0.0
+ _ZN17KAccountsUiPlugin13configUiReadyEv@Base 4:15.08.1+git20150917.2210+15.10
  _ZN17KAccountsUiPlugin16staticMetaObjectE@Base 0.0
  _ZN17KAccountsUiPlugin5errorERK7QString@Base 0.0
  _ZN17KAccountsUiPlugin7successERK7QStringS2_RK4QMapIS0_8QVariantE@Base 0.0
@@ -35,6 +36,7 @@ libkaccounts.so.1 libkaccounts1 #MINVER#
  _ZNK17GetCredentialsJob15credentialsDataEv@Base 0.0
  _ZNK17GetCredentialsJob9accountIdEv@Base 0.0
  _ZNK17KAccountsUiPlugin10metaObjectEv@Base 0.0
+ _ZNK17KAccountsUiPlugin15transientParentEv@Base 4:15.08.1+git20150917.2210+15.10
  _ZTI16KAccountsDPlugin@Base 0.0
  _ZTI17GetCredentialsJob@Base 0.0
  _ZTI17KAccountsUiPlugin@Base 0.0
