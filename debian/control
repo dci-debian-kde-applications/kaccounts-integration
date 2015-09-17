@@ -45,10 +45,10 @@ Description: System to administer web accounts - shared library
 Package: libkaccounts-dev
 Section: libdevel
 Architecture: any
-Depends: libaccounts-qt5-dev,
+Depends: libaccounts-qt5-dev (>= 1.10~),
          libkaccounts1 (= ${binary:Version}),
-         libkf5coreaddons-dev,
-         libsignon-qt5-dev,
+         libkf5coreaddons-dev (>= 5.4.0~),
+         libsignon-qt5-dev (>= 8.55~),
          ${misc:Depends},
          ${shlibs:Depends}
 Breaks: kaccounts-integration (<= 0.0+git20141209.1543+15.04)
