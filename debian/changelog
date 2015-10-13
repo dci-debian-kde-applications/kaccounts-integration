@@ -2,6 +2,7 @@ kaccounts-integration (4:15.08.2-0ubuntu1) UNRELEASED; urgency=medium
 
   * Vivid backport
   * New upstream release
+  * Fix install file. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 09 Oct 2015 13:38:05 -0700
 
