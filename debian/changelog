@@ -1,6 +1,5 @@
 kaccounts-integration (4:15.08.2-0ubuntu1) UNRELEASED; urgency=medium
 
-  * Vivid backport
   * New upstream release
   * Fix install file. 
 
