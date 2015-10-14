@@ -1,4 +1,3 @@
 usr/lib/*/qt5/plugins/kcm_kaccounts.so
 usr/lib/*/qt5/plugins/kded_accounts.so
-usr/share/kpackage/genericqml/org.kde.kaccounts.owncloud/
 usr/share/kservices5/
