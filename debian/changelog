@@ -1,3 +1,9 @@
+kaccounts-integration (4:15.08.2-0ubuntu1) UNRELEASED; urgency=medium
+
+  * Vivid backport
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 16 Oct 2015 21:55:32 -0700
+
 kaccounts-integration (4:15.08.2-0ubuntu1) wily; urgency=medium
 
   * New upstream release
