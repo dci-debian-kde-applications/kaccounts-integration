@@ -22,7 +22,7 @@ kaccounts-integration (15.08.1-1) unstable; urgency=medium
   * New upstream release (15.04.0).
   * New upstream release (15.04.1).
   * New upstream release (15.04.2).
-  [ Harald Sitter ]
+
   [ Diane Trout ]
   * New upstream release (15.04.3).
   * Add support for running unit tests.
