@@ -1,4 +1,4 @@
-kaccounts-integration (15.08.1-1) UNRELEASED; urgency=medium
+kaccounts-integration (15.08.1-1) unstable; urgency=medium
 
   [ Harald Sitter ]
   * Initial release.
@@ -21,6 +21,7 @@ kaccounts-integration (15.08.1-1) UNRELEASED; urgency=medium
   * Update libkaccounts1.install for new library filename
   * Add KDE's unstable release url.
   * New upstream release (15.08.0).
+  * New upstream release (15.08.1).
   * Add qtdeclarative5-dev to build-dependes
   * Add myself to uploaders
   * Add qml-module-org-kde-kaccounts package.
@@ -30,4 +31,4 @@ kaccounts-integration (15.08.1-1) UNRELEASED; urgency=medium
     kaccounts-integration. (To match kubuntu)
   * Add --list-missing to dh_install to make sure everything installed.
 
- -- Diane Trout <diane@debian.org>  Sun, 09 Aug 2015 20:27:02 -0700
+ -- Diane Trout <diane@debian.org>  Sun, 20 Sep 2015 22:21:04 -0700
