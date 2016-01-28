@@ -1,3 +1,12 @@
+kaccounts-integration (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+  * Debian merge: No remaining changes.
+  * Actually bump the version...
+  * Fix CI merge after debian merge. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 28 Jan 2016 13:44:50 -0800
+
 kaccounts-integration (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Clive Johnston ]
@@ -7,6 +16,21 @@ kaccounts-integration (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
   * Add dep to intltool for libkaccounts-dev
 
  -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 13:32:35 +0000
+
+kaccounts-integration (15.12.0-1~) UNRELEASED; urgency=medium
+
+  * New upstream release.
+  * Add libkf5declarative-dev to Build-Depends.
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 16 Dec 2015 16:16:41 +0100
+
+kaccounts-integration (15.08.3-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Change my email address back
+  * Update symbols file with new symbols.
+
+ -- Diane Trout <diane@ghic.org>  Fri, 04 Dec 2015 10:55:04 -0800
 
 kaccounts-integration (4:15.08.2-0ubuntu1) wily; urgency=medium
 
@@ -20,6 +44,37 @@ kaccounts-integration (4:15.08.1-0ubuntu1) wily; urgency=medium
   * New upstream release (15.08.1)
 
  -- Clive Johnston <clivejo@aol.com>  Tue, 22 Sep 2015 16:13:27 +0100
+
+kaccounts-integration (15.08.1-1) unstable; urgency=medium
+  [ Maximiliano Curia ]
+  * New upstream release (15.04.0).
+  * New upstream release (15.04.1).
+  * New upstream release (15.04.2).
+
+  [ Diane Trout ]
+  * New upstream release (15.04.3).
+  * Add support for running unit tests.
+    - add xauth and xvfb to Build-Depends.
+    - override_dh_auto_test to manually run ctest
+      because the test kaccounts-testnetattachjobs
+      configures kwallet which opens up a GUI for
+      configuring, and unlocking the wallet.
+      The "cd obj-*" to change to the build directory
+      should be fixed.
+  * Update libkaccounts1.install for new library filename
+  * Add KDE's unstable release url.
+  * New upstream release (15.08.0).
+  * New upstream release (15.08.1).
+  * Add qtdeclarative5-dev to build-dependes
+  * Add myself to uploaders
+  * Add qml-module-org-kde-kaccounts package.
+  * Add libaccounts-qt5-dev, libkf5coreaddons-dev, libsignonq-qt5-dev
+    dependencies to libkaccounts-dev.
+  * Add signon-plugin-password and signon-ui-x11 dependencies to
+    kaccounts-integration. (To match kubuntu)
+  * Add --list-missing to dh_install to make sure everything installed.
+
+ -- Diane Trout <diane@debian.org>  Sun, 20 Sep 2015 22:21:04 -0700
 
 kaccounts-integration (4:15.08.0-0ubuntu2) wily; urgency=medium
 
