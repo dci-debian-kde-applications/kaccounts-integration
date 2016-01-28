@@ -1,9 +1,12 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: signon-kwallet-extension
-Source: http://quickgit.kde.org/?p=signon-kwallet-extension.git
+Upstream-Name: kaccounts-integration
+Source: git://anongit.kde.org/kwaccounts-integration.git
 
 Files: *
-Copyright: 2012-2013 Alejandro Fiestas Olivares <afiestas@kde.org>
+Copyright: 2015, Aleix Pol <aleixpol@kde.org>
+           2012-2013, Alejandro Fiestas Olivares <afiestas@kde.org>
+           1989-1991, Free Software Foundation, Inc
+           2015, Martin Klapetek <mklapetek@kde.org>
 License: GPL-2+
 
 Files: src/lib/*
@@ -18,6 +21,7 @@ Copyright: 2014 Martin Klapetek <mklapetek@kde.org>
 License: GPL-KDEeV
 
 Files: src/models/modeltest.cpp
+       src/models/modeltest.h
 Copyright: 2007 Trolltech ASA
 License: GPL-2
 
