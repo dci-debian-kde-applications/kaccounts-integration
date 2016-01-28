@@ -1,7 +1,8 @@
-kaccounts-integration (4:15.12.0-0ubuntu1.1) UNRELEASED; urgency=medium
+kaccounts-integration (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release.
   * Debian merge: No remaining changes.
+  * Actually bump the version...
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 28 Jan 2016 13:44:50 -0800
 
