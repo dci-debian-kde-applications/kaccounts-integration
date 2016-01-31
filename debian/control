@@ -83,13 +83,3 @@ Description: System to administer web accounts
  Small system to administer web accounts for the sites and services
  across the Plasma desktop, including: Google, Facebook, Owncloud, IMAP,
  Jabber and others.
-
-Package: kaccounts-integration-dbg
-Architecture: any
-Section: debug
-Priority: extra
-Depends: kaccounts-integration (= ${binary:Version}), ${misc:Depends}
-Description: system to administer web accounts - debug symbols
- For the sites and services across the Plasma desktop.
- .
- This package contains debug symbols.
