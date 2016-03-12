@@ -1,0 +1,37 @@
+From: Martin Klapetek <mklapetek@kde.org>
+Date: Wed, 24 Feb 2016 01:49:29 +0000
+Subject: Update the providers/services install path to not collide on Ubuntu
+X-Git-Url: http://quickgit.kde.org/?p=kaccounts-integration.git&a=commitdiff&h=deff781ae751f2f1c95b24997d01aa38c0dd7502
+---
+Update the providers/services install path to not collide on Ubuntu
+
+This now definitely closes bug 347219. Now it's up to Ubuntu to fix
+their packages.
+
+BUG: 347219
+FIXED-IN: 16.04
+---
+
+
+--- a/src/lib/KAccountsMacros.cmake
++++ b/src/lib/KAccountsMacros.cmake
+@@ -9,7 +9,8 @@
+     if(intltool_error)
+         message(FATAL_ERROR "error processing ${provider_in_file}: ${intltool_error}")
+     endif()
+-    install(FILES ${provider_file} DESTINATION ${ACCOUNTS_PROVIDERS_DIR})
++    # The suffix must match whatever we set for $XDG_CURRENT_DESKTOP
++    install(FILES ${provider_file} DESTINATION ${ACCOUNTS_PROVIDERS_DIR}/kde/)
+ endfunction()
+ 
+ function(kaccounts_add_service service_file_in)
+@@ -23,6 +24,7 @@
+     if(intltool_error)
+         message(FATAL_ERROR "error processing  ${service_file_in}: ${intltool_error}")
+     endif()
+-    install(FILES ${service_file} DESTINATION ${ACCOUNTS_SERVICES_DIR})
++    # The suffix must match whatever we set for $XDG_CURRENT_DESKTOP
++    install(FILES ${service_file} DESTINATION ${ACCOUNTS_SERVICES_DIR}/kde/)
+ endfunction()
+ 
+
