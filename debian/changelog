@@ -1,11 +1,12 @@
-kaccounts-integration (15.12.3-1~1.gbpab3b7b) UNRELEASED; urgency=medium
+kaccounts-integration (16.04.0-1~1.gbpf0e5ab) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @ab3b7b8365df8a19847192cb4748c12cd2788eb4 **
+  ** SNAPSHOT build @f0e5ab6fc99267621d1f1a52f8d10067cbbd816f **
 
   * Bump Standards-Version to 3.9.8
   * Update symbols files with the logs from the buildds
+  * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 14:08:38 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 01:58:10 +0200
 
 kaccounts-integration (15.12.1-1) experimental; urgency=medium
 
