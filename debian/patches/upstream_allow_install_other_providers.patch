@@ -15,20 +15,16 @@ FIXED-IN: 16.04
 
 --- a/src/lib/KAccountsMacros.cmake
 +++ b/src/lib/KAccountsMacros.cmake
-@@ -9,7 +9,8 @@
-     if(intltool_error)
-         message(FATAL_ERROR "error processing ${provider_in_file}: ${intltool_error}")
-     endif()
+@@ -4,7 +4,8 @@
+     execute_process(COMMAND intltool-merge -x -u --no-translations ${provider_in_file} ${provider_file})
 -    install(FILES ${provider_file} DESTINATION ${ACCOUNTS_PROVIDERS_DIR})
 +    # The suffix must match whatever we set for $XDG_CURRENT_DESKTOP
 +    install(FILES ${provider_file} DESTINATION ${ACCOUNTS_PROVIDERS_DIR}/kde/)
  endfunction()
  
  function(kaccounts_add_service service_file_in)
-@@ -23,6 +24,7 @@
-     if(intltool_error)
-         message(FATAL_ERROR "error processing  ${service_file_in}: ${intltool_error}")
-     endif()
+@@ -11,6 +11,7 @@
+     execute_process(COMMAND intltool-merge -x -u --no-translations ${service_file_in} ${service_file})
 -    install(FILES ${service_file} DESTINATION ${ACCOUNTS_SERVICES_DIR})
 +    # The suffix must match whatever we set for $XDG_CURRENT_DESKTOP
 +    install(FILES ${service_file} DESTINATION ${ACCOUNTS_SERVICES_DIR}/kde/)
