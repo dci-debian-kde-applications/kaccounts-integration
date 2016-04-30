@@ -2,6 +2,7 @@ kaccounts-integration (4:15.12.3-0ubuntu3) UNRELEASED; urgency=medium
 
   * DO a ppa build to test. 
   * Add upstream_enforce_accounts-glib_version.patch 
+  * Add series file. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Sat, 23 Apr 2016 10:18:44 -0700
 
