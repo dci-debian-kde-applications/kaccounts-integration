@@ -1,0 +1,3 @@
+upstream_allow_install_other_providers.patch
+upstream_enforce_accounts-glib_version.patch
+
