@@ -1,10 +1,6 @@
-kaccounts-integration (16.04.1-1~1.gbp462705) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @462705c71bc52d93018535f14158cccf4a399825 **
+kaccounts-integration (16.04.1-1) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @f0e5ab6fc99267621d1f1a52f8d10067cbbd816f **
-
   * Bump Standards-Version to 3.9.8
   * Update symbols files with the logs from the buildds
   * Update build-deps and deps with the info from cmake
@@ -17,9 +13,8 @@ kaccounts-integration (16.04.1-1~1.gbp462705) UNRELEASED; urgency=medium
   * Add pkg-config build dependency
   * Add new build dependency libaccounts-glib-dev
   * Update install files
-  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Wed, 11 May 2016 01:58:13 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 26 May 2016 10:50:11 +0200
 
 kaccounts-integration (15.12.1-1) experimental; urgency=medium
 
