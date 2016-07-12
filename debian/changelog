@@ -1,3 +1,11 @@
+kaccounts-integration (16.04.3-1~1.gbp661f58) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @661f5867f7b5e0b76ea5f320b30abeec102d64a4 **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 12 Jul 2016 19:58:22 +0200
+
 kaccounts-integration (16.04.2-1) unstable; urgency=medium
 
   * New upstream release.
