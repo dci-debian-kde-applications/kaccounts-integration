@@ -1,3 +1,9 @@
+kaccounts-integration (16.08.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 17 Aug 2016 11:47:37 +0000
+
 kaccounts-integration (16.04.2-1) unstable; urgency=medium
 
   * New upstream release.
