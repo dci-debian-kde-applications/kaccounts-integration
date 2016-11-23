@@ -1,10 +1,8 @@
-kaccounts-integration (16.08.3-1~1.gbpc29384) UNRELEASED; urgency=medium
+kaccounts-integration (16.08.3-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @c29384447786a5fefd9f7e6490aa4576776a7490 **
+  * New upstream release (16.08.3)
 
-  * UNRELEASED
-
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Thu, 10 Nov 2016 19:58:32 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 23 Nov 2016 20:54:31 +0100
 
 kaccounts-integration (16.08.2-1) unstable; urgency=medium
 
