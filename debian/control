@@ -14,8 +14,8 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5declarative-dev (>= 5.4.0~),
                libkf5i18n-dev (>= 5.4.0~),
                libkf5iconthemes-dev (>= 5.4.0~),
-               libkf5kio-dev (>= 5.4.0~),
                libkf5kcmutils-dev (>= 5.4.0~),
+               libkf5kio-dev (>= 5.4.0~),
                libkf5wallet-dev (>= 5.4.0~),
                libkf5widgetsaddons-dev (>= 5.4.0~),
                libsignon-qt5-dev (>= 8.55~),
@@ -24,11 +24,46 @@ Build-Depends: cmake (>= 2.8.12~),
                qtbase5-dev (>= 5.4),
                qtdeclarative5-dev (>= 5.2.0~),
                xauth,
-               xvfb
+               xvfb,
 Standards-Version: 4.1.0
 Homepage: https://projects.kde.org/projects/kde/kdenetwork/kaccounts-integration
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kaccounts-integration.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kaccounts-integration.git
+
+Package: kaccounts-integration
+Architecture: any
+Depends: libkaccounts1 (= ${binary:Version}),
+         signon-kwallet-extension,
+         signon-plugin-oauth2,
+         signon-plugin-password,
+         signon-ui-x11,
+         signond,
+         ${misc:Depends},
+         ${shlibs:Depends},
+Recommends: kaccounts-providers
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
+Description: System to administer web accounts
+ Small system to administer web accounts for the sites and services
+ across the Plasma desktop, including: Google, Facebook, Owncloud, IMAP,
+ Jabber and others.
+
+Package: libkaccounts-dev
+Section: libdevel
+Architecture: any
+Depends: libaccounts-qt5-dev (>= 1.13~),
+         libkaccounts1 (= ${binary:Version}),
+         libkf5coreaddons-dev (>= 5.4.0~),
+         libsignon-qt5-dev (>= 8.55~),
+         ${misc:Depends},
+         ${shlibs:Depends},
+Breaks: kaccounts-integration (<= 0.0+git20141209.1543+15.04)
+Replaces: kaccounts-integration (<= 0.0+git20141209.1543+15.04)
+Description: System to administer web accounts - development files
+ Small system to administer web accounts for the sites and services across the
+ Plasma desktop, including: Google, Facebook, Owncloud, IMAP, Jabber and others.
+ .
+ This package contains development files.
 
 Package: libkaccounts1
 Section: libs
@@ -44,23 +79,6 @@ Description: System to administer web accounts - shared library
  .
  This package contains the shared library.
 
-Package: libkaccounts-dev
-Section: libdevel
-Architecture: any
-Depends: libaccounts-qt5-dev (>= 1.13~),
-         libkaccounts1 (= ${binary:Version}),
-         libkf5coreaddons-dev (>= 5.4.0~),
-         libsignon-qt5-dev (>= 8.55~),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Breaks: kaccounts-integration (<= 0.0+git20141209.1543+15.04)
-Replaces: kaccounts-integration (<= 0.0+git20141209.1543+15.04)
-Description: System to administer web accounts - development files
- Small system to administer web accounts for the sites and services across the
- Plasma desktop, including: Google, Facebook, Owncloud, IMAP, Jabber and others.
- .
- This package contains development files.
-
 Package: qml-module-org-kde-kaccounts
 Architecture: any
 Multi-arch: same
@@ -69,21 +87,3 @@ Description: KAccounts QtDeclarative QML Support
  Contains a plugin for QtDeclarative that provides
  support for using KAccounts components written
  in QML.
-
-Package: kaccounts-integration
-Architecture: any
-Depends: libkaccounts1 (= ${binary:Version}),
-         signon-kwallet-extension,
-         signon-plugin-oauth2,
-         signon-plugin-password,
-         signon-ui-x11,
-         signond,
-         ${misc:Depends},
-         ${shlibs:Depends}
-Recommends: kaccounts-providers
-Breaks: ${kde-l10n:all}
-Replaces: ${kde-l10n:all}
-Description: System to administer web accounts
- Small system to administer web accounts for the sites and services
- across the Plasma desktop, including: Google, Facebook, Owncloud, IMAP,
- Jabber and others.
