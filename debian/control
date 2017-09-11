@@ -41,7 +41,9 @@ Depends: libkaccounts1 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends},
 Recommends: kaccounts-providers
-Breaks: ${kde-l10n:all}
+Breaks: kde-config-telepathy-accounts (<< 17.08),
+        libktpcommoninternals9 (<< 17.08),
+        ${kde-l10n:all},
 Replaces: ${kde-l10n:all}
 Description: System to administer web accounts
  Small system to administer web accounts for the sites and services
@@ -71,7 +73,11 @@ Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: kaccounts-providers
-Breaks: kaccounts-integration (<= 0.0+git20141209.1543+15.04)
+Breaks: kaccounts-integration (<= 0.0+git20141209.1543+15.04),
+        kaccounts-providers (<< 4:17.08),
+        kde-config-telepathy-accounts (<< 17.08),
+        kde-telepathy-auth-handler (<< 17.08),
+        kde-telepathy-kaccounts (<< 17.08),
 Replaces: kaccounts-integration (<= 0.0+git20141209.1543+15.04)
 Description: System to administer web accounts - shared library
  Small system to administer web accounts for the sites and services across the
